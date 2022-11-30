@@ -1,0 +1,39 @@
+.outerContainer {
+    width: 100%;
+    margin: 10px 0px;
+}
+.tableContainer {
+    overflow-x: auto;
+}
+.table {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.th, .td {
+    padding: 10px 10px;
+    min-width: 100px;
+    border: 1px solid #E1E1E1;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+  }
+
+tr:nth-child(odd){background-color: #f2f2f2;}
+
+.th {
+    background-color: white;
+    padding: 10px 10px;
+    text-align: left;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 170%;
+    color: #383838;
+}
+.pointer {
+    cursor: pointer;
+}

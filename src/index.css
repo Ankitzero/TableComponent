@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  padding: 10px;
+}
+.nameContainer {
+  display: flex;
+  align-items: center;
+}
+.name {
+  padding: 0px 10px;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+}
+.href {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: blue;
+}
